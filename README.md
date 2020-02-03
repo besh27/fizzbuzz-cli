@@ -17,10 +17,10 @@
 ## How to play Fizz Buzz in your terminal
 - clone this repo
 - run ```node index```
-    - The will play the game in default mode: multiples 3 & 5 upto 25 turns. 
-- The number of turns is dynamic and can be passed in as the 1st parameter.
-    - run ```node index 50``` to play till `50`.
-- The multiples are also dynamic and can be passed in as the 2nd and 3rd parameters. 
+    - This will play the game in default mode: multiples of 3 & 5 up to 25 turns. 
+- The number of turns is dynamic and can be passed in as the 1st arguments.
+    - run ```node index 50``` to play up to `50` turns.
+- The multiples are also dynamic and can be passed in as the 2nd and 3rd arguments. 
     - ```node 25 2 & 3```, ```node 75 5 & 7```, etc. 
     
 
