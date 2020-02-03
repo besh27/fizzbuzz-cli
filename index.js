@@ -1,6 +1,6 @@
 var myArgs = process.argv.slice(2);
 
-const fizzBuzz = (num, multiOne, multiTwo = 0) => {
+const fizzBuzz = (num = 25, multiOne = 3, multiTwo = 5) => {
     const bizzArray = [];
     for(let i = 1; i <= num; i++){
         if(i % multiOne === 0 && i % multiTwo === 0){
