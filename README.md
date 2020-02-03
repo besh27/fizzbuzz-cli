@@ -10,6 +10,18 @@
     A simple Fuzz Buzz Game to play in Your Terminal
 </p>
 
-## How to play Fizz Buzz
+## Why Does the World Need another Version of Fizz-Buzz?
+- Short Answer: It doesn't.
+- Long Answer: I didn't know this game existed until I watched a Tom Scott video, where he explained that he had heard this game was a good interview question. In the video, he went over the game's rules and I quickly realized two things; this isn't a good interview question and of course I'll to give it a shot!
+
+## How to play Fizz Buzz in your terminal
 - clone this repo
-- run ```node index.js 3 5```
+- run ```node index```
+    - The will play the game in default mode: multiples 3 & 5 upto 25 turns. 
+- The number of turns is dynamic and can be passed in as the 1st parameter.
+    - run ```node index 50``` to play till `50`.
+- The multiples are also dynamic and can be passed in as the 2nd and 3rd parameters. 
+    - ```node 25 2 & 3```, ```node 75 5 & 7```, etc. 
+    
+
+
