@@ -21,7 +21,7 @@
 - The number of turns is dynamic and can be passed in as the 1st arguments.
     - run ```node index 50``` to play up to `50` turns.
 - The multiples are also dynamic and can be passed in as the 2nd and 3rd arguments. 
-    - ```node 25 2 & 3```, ```node 75 5 & 7```, etc. 
+    - ```node 25 2 3```, ```node 75 5 7```, etc. 
     
 
 
